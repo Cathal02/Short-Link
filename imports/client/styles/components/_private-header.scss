@@ -1,0 +1,22 @@
+.header {
+  width: 100vw;
+  background-color: $header-bg;
+  color: $header-color;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  max-width: $site-max-width;
+  margin: 0 auto;
+  padding: $space;
+
+  button{
+    color: white;
+  }
+}
+
+.header__title{
+  margin: 0;
+  color: white;
+}
